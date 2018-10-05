@@ -1,16 +1,14 @@
 <template>
-  <div class="loader">Loading...</div>
+    <div class="loader">Loading...</div>
 </template>
 
 <script>
   export default {
-    name: 'spinner',
-    props: [ 'artist' ]
+    name: 'spinner'
   }
 </script>
 
 <style>
-
 .loader {
   color: #324b5d;
   font-size: 90px;
@@ -87,6 +85,4 @@
   75% {box-shadow: 0em -3em 0 -1em, 2em -2em 0 -1em, 3em 0em 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0.2em, -2em -2em 0 0;}
   87.5% {box-shadow: 0em -3em 0 0, 2em -2em 0 -1em, 3em 0 0 -1em, 2em 2em 0 -1em, 0 3em 0 -1em, -2em 2em 0 0, -3em 0em 0 0, -2em -2em 0 0.2em;}
 }*/
-
-
 </style>
